@@ -1,0 +1,26 @@
+@media only screen and (max-width: 992px) {
+  .showtime {
+    justify-content: center;
+  }
+  .showtime input {
+    width: 100%;
+  }
+  .showtime input:last-child {
+    margin-bottom: 20px;
+  }
+}
+
+
+@media only screen and (max-width: 570px) {
+  .title,
+  .year {
+    text-align: center;
+  }
+  .main-container {
+    text-align: center;
+    margin-top: 15px;
+  }
+  .poster {
+    display: flex;
+  }
+}
